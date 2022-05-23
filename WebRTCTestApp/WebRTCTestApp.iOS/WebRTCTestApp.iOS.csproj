@@ -68,7 +68,7 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="WebViewService.cs" />
     <None Include="Entitlements.plist" />
-    <BundleResource Include="Html\peerjs.min.js.map" />
+    <BundleResource Include="Resources\Html\peerjs.min.js.map" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -143,9 +143,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Html\call.html" />
-    <BundleResource Include="Html\call.js" />
-    <BundleResource Include="Html\peerjs.js" />
-    <BundleResource Include="Html\style.css" />
+    <BundleResource Include="Resources\Html\call.html" />
+    <BundleResource Include="Resources\Html\call.js" />
+    <BundleResource Include="Resources\Html\peerjs.js" />
+    <BundleResource Include="Resources\Html\style.css" />
   </ItemGroup>
 </Project>
