@@ -15,10 +15,10 @@ using WebRTCTestApp.iOS.CustomRender;
 [assembly: ExportRenderer(typeof(GenericWebView), typeof(MyWebViewRenderer))]
 namespace WebRTCTestApp.iOS.CustomRender
 {
-    public class MyWebViewRenderer : ViewRenderer<WebView, WKWebView>
+    public class MyWebViewRenderer : ViewRenderer<GenericWebView, WKWebView>
     {
         WKWebView wkWebView;
-        protected override void OnElementChanged(ElementChangedEventArgs<WebView> e)
+        protected override void OnElementChanged(ElementChangedEventArgs<GenericWebView> e)
         {
             base.OnElementChanged(e);
             if (Control == null)
