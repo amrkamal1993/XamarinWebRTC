@@ -62,9 +62,11 @@ namespace WebRTCTestApp
         {
             try
             {
-                //callPageViewModel.CurrentUser.ID 12345
+                //await CallWebView.EvaluateJavaScriptAsync($"start();");
                 await CallWebView.EvaluateJavaScriptAsync($"init('54321');");
-                await Task.Delay(1000);
+                //callPageViewModel.CurrentUser.ID 12345
+                //await CallWebView.EvaluateJavaScriptAsync($"init('54321');");
+                //await Task.Delay(1000);
                 await CallWebView.EvaluateJavaScriptAsync($"startCall('12345');");
                 //callPageViewModel.Friend.ID 54321
             }

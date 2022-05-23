@@ -14,6 +14,7 @@ namespace WebRTCTestApp.iOS.Services
     {
         public string GetContent()
         {
+            //return NSBundle.MainBundle.BundlePath + "/ModifiedHtml/index.html";
             return NSBundle.MainBundle.BundlePath + "/Html/call.html";
         }
     }
